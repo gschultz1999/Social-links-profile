@@ -17,25 +17,33 @@
     flex-direction: column;
     background-color: hsl(0, 0%, 12%);
     align-items: center;
-    width: 22rem;
-    height: auto;
     padding: 1rem;
-    border-radius: 5%;
+    border-radius: 3%;
     margin: 0 auto;
+    max-width: 25rem;
+    min-height: 30rem;
 }
+
+h2,
+h3{
+    padding-bottom: 2rem;
+}
+
 
 img {
     width: 25%;
     border-radius: 50%;
+    margin-bottom: 1rem;
 }
 
 h1 {
-    font-weight: 800;
+    font-weight: 600;
     color: white;
 }
 
 h2 {
     color: hsl(75, 94%, 57%);
+    padding-top: 0.5rem;
 }
 
 h2,
@@ -47,13 +55,26 @@ button {
 
 h3 {
     font-weight: 400;
+    color: white;
 }
 
 button {
     cursor: pointer;
-    background-color: gray;
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    width: 85%;
+    border: 0px;
+    border-radius: 0.3rem;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    min-height: 3rem;
 }
 
 button:hover {
-    color: hsl(75, 94%, 57%);
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+}
+
+.attribution {
+    color: white;
 }
